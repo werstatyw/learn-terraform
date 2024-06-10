@@ -67,7 +67,7 @@ resource "google_compute_instance" "test_gcp_instance" {
 
 // Configure the Yandex.Cloud provider
 provider "yandex" {
-  token                    = "y0_AgAAAAAHOI-eAATuwQAAAADxorsJB6r026yqQiSlDmu35LMEf9h2Q9c"
+  token                    = YA_TOKEN
 #  service_account_key_file = "path_to_service_account_key_file"
   cloud_id                 = "b1gao5h6m0ih7dpq8c65"
   folder_id                = "b1glorm4oekc0i95v44s"
